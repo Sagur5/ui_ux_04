@@ -1,6 +1,5 @@
-// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, sized_box_for_whitespace
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:gap/gap.dart';
@@ -27,133 +26,69 @@ class Homepage1 extends StatelessWidget {
               Padding(
                 padding: EdgeInsets.only(left: 4.0),
                 child: IconElement(
-                  iconName: "Tree Chain",
+                  iconName: "Quantity Limits",
                   textsize: MediaQuery.of(context).size.height / 55,
                   firstIcon: Icon(
-                    Icons.account_tree_outlined,
+                    Icons.production_quantity_limits,
                     size: MediaQuery.of(context).size.height / 15,
-                    color: Color.fromARGB(255, 19, 180, 46),
+                    color: Color.fromARGB(255, 231, 70, 105),
                   ),
                 ),
               ),
               Gap(MediaQuery.of(context).size.height / 50),
-
               IconElement(
-                  iconName: "Smart Phone",
-                  textsize: MediaQuery.of(context).size.height / 55,
-                  firstIcon: Icon(
-                    Icons.phone_android,
-                    size: MediaQuery.of(context).size.height / 15,
-                    color: Color.fromARGB(255, 20, 107, 165),
-                  ),
+                iconName: "AC Unit",
+                textsize: MediaQuery.of(context).size.height / 55,
+                firstIcon: Icon(
+                  Icons.ac_unit,
+                  size: MediaQuery.of(context).size.height / 15,
+                  color: Color.fromARGB(255, 218, 23, 205),
                 ),
-              
+              ),
               Gap(MediaQuery.of(context).size.height / 50),
               IconElement(
-                  iconName: "Electronic",
-                  textsize: MediaQuery.of(context).size.height / 55,
-                  firstIcon: Icon(
-                    Icons.laptop_mac,
-                    size: MediaQuery.of(context).size.height / 15,
-                    color: Color.fromARGB(255, 172, 71, 125),
-                  ),
+                iconName: "Profile",
+                textsize: MediaQuery.of(context).size.height / 55,
+                firstIcon: Icon(
+                  Icons.people_alt_rounded,
+                  size: MediaQuery.of(context).size.height / 15,
+                  color: Color.fromARGB(255, 70, 246, 199),
                 ),
-                 Gap(MediaQuery.of(context).size.height / 50),
-                 IconElement(
-                  iconName: "Electronic",
-                  textsize: MediaQuery.of(context).size.height / 55,
-                  firstIcon: Icon(
-                    Icons.car_rental,
-                    size: MediaQuery.of(context).size.height / 15,
-                    color: Color.fromARGB(255, 218, 73, 10),
-                  ),
-                ),
-              
+              ),
               Gap(MediaQuery.of(context).size.height / 50),
-             
+              IconElement(
+                iconName: "Notification",
+                textsize: MediaQuery.of(context).size.height / 55,
+                firstIcon: Icon(
+                  Icons.notification_add,
+                  size: MediaQuery.of(context).size.height / 15,
+                  color: Color.fromARGB(255, 89, 87, 233),
+                ),
+              ),
+              Gap(MediaQuery.of(context).size.height / 50),
             ],
           ),
           Gap(MediaQuery.of(context).size.height / 50),
-          // Column(
-          //   children: [
-          //     Row(
-          //       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          //       crossAxisAlignment: CrossAxisAlignment.start,
-          //       children: [
-          //         Padding(
-          //           padding: EdgeInsets.only(left: 4.0),
-          //           child: Column(
-          //             children: [
-          //               Icon(
-          //                 Icons.sports_baseball_rounded,
-          //                 color: Color.fromARGB(255, 216, 37, 49),
-          //                 size: 50,
-          //               ),
-          //               Text(" All Sports",
-          //                   style:
-          //                       TextStyle(fontSize: 15, color: Colors.black)),
-          //             ],
-          //           ),
-          //         ),
-          //         Gap(20),
-          //         Column(
-          //           children: [
-          //             Icon(
-          //               Icons.food_bank,
-          //               color: Color.fromARGB(255, 14, 177, 60),
-          //               size: 50,
-          //             ),
-          //             Text("Food Item",
-          //                 style: TextStyle(fontSize: 15, color: Colors.black)),
-          //           ],
-          //         ),
-          //         Gap(20),
-          //         Column(
-          //           children: [
-          //             Icon(
-          //               Icons.gamepad_sharp,
-          //               color: Color.fromARGB(255, 185, 148, 12),
-          //               size: 50,
-          //             ),
-          //             Text("Vedio Game",
-          //                 style: TextStyle(fontSize: 15, color: Colors.black)),
-          //           ],
-          //         ),
-          //         Gap(20),
-          //         Column(
-          //           children: [
-          //             Icon(
-          //               Icons.health_and_safety,
-          //               color: Color.fromARGB(255, 121, 38, 204),
-          //               size: 50,
-          //             ),
-          //             Text("Health & Care",
-          //                 style: TextStyle(fontSize: 15, color: Colors.black)),
-          //           ],
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-        Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              Padding(
-                padding: EdgeInsets.only(left: 4.0),
-                child: IconElement(
-                  iconName: "Tree Chain",
-                  textsize: MediaQuery.of(context).size.height / 55,
-                  firstIcon: Icon(
-                    Icons.account_tree_outlined,
-                    size: MediaQuery.of(context).size.height / 15,
-                    color: Color.fromARGB(255, 19, 180, 46),
+          Padding(
+            padding: const EdgeInsets.all(1.0),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Padding(
+                  padding: EdgeInsets.only(left: 4.0),
+                  child: IconElement(
+                    iconName: "Supply Chain",
+                    textsize: MediaQuery.of(context).size.height / 55,
+                    firstIcon: Icon(
+                      Icons.account_tree_outlined,
+                      size: MediaQuery.of(context).size.height / 15,
+                      color: Color.fromARGB(255, 19, 180, 46),
+                    ),
                   ),
                 ),
-              ),
-              Gap(MediaQuery.of(context).size.height / 50),
-
-              IconElement(
+                Gap(MediaQuery.of(context).size.height / 50),
+                IconElement(
                   iconName: "Smart Phone",
                   textsize: MediaQuery.of(context).size.height / 55,
                   firstIcon: Icon(
@@ -162,20 +97,19 @@ class Homepage1 extends StatelessWidget {
                     color: Color.fromARGB(255, 20, 107, 165),
                   ),
                 ),
-              
-              Gap(MediaQuery.of(context).size.height / 50),
-              IconElement(
-                  iconName: "Electronic",
+                Gap(MediaQuery.of(context).size.height / 50),
+                IconElement(
+                  iconName: "Chat Box",
                   textsize: MediaQuery.of(context).size.height / 55,
                   firstIcon: Icon(
-                    Icons.laptop_mac,
+                    Icons.chat_outlined,
                     size: MediaQuery.of(context).size.height / 15,
                     color: Color.fromARGB(255, 172, 71, 125),
                   ),
                 ),
-                 Gap(MediaQuery.of(context).size.height / 50),
-                 IconElement(
-                  iconName: "Electronic",
+                Gap(MediaQuery.of(context).size.height / 50),
+                IconElement(
+                  iconName: "Car Solution",
                   textsize: MediaQuery.of(context).size.height / 55,
                   firstIcon: Icon(
                     Icons.car_rental,
@@ -183,10 +117,9 @@ class Homepage1 extends StatelessWidget {
                     color: Color.fromARGB(255, 218, 73, 10),
                   ),
                 ),
-              
-              Gap(MediaQuery.of(context).size.height / 50),
-             
-            ],
+                Gap(MediaQuery.of(context).size.height / 50),
+              ],
+            ),
           ),
           Gap(MediaQuery.of(context).size.height / 50),
           Container(
@@ -195,81 +128,90 @@ class Homepage1 extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(
-                  "Flash sale",
-                  style: TextStyle(
-                      color: Colors.black,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 20),
+                Padding(
+                  padding: const EdgeInsets.only(left: 6.0),
+                  child: Text(
+                    "Flash sale",
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20),
+                  ),
                 ),
                 Gap(8),
-                Row(
-                  children: [
-                    Text(
-                      "Flash sale end in",
-                      style: TextStyle(color: Colors.black, fontSize: 18),
-                    ),
-                    Gap(12),
-                    Container(
-                      height: 35,
-                      width: 35,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(4),
-                        color: Colors.amber[900],
+                Expanded(
+                  child: Row(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.only(left: 6.0),
+                        child: Text(
+                          "Flash sale end in",
+                          style: TextStyle(color: Colors.black, fontSize: 18),
+                        ),
                       ),
-                      child: Center(
-                          child: Text(
-                        "02",
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold, color: Colors.white),
-                      )),
-                    ),
-                    Gap(20),
-                    Container(
-                      height: 35,
-                      width: 35,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(4),
-                        color: Colors.amber[900],
-                      ),
-                      child: Center(
-                          child: Text(
-                        "12",
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold, color: Colors.white),
-                      )),
-                    ),
-                    Gap(20),
-                    Center(
-                      child: Container(
-                        height: 35,
-                        width: 35,
+                      Gap(12),
+                      Container(
+                        height: MediaQuery.of(context).size.height / 20,
+                        width: MediaQuery.of(context).size.height / 22,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(4),
                           color: Colors.amber[900],
                         ),
                         child: Center(
                             child: Text(
-                          "24",
+                          "02",
                           style: TextStyle(
                               fontWeight: FontWeight.bold, color: Colors.white),
                         )),
                       ),
-                    ),
-                    Gap(20),
-                    Text(
-                      "View All",
-                      style: TextStyle(
-                          color: Color.fromARGB(
-                            255,
-                            6,
-                            89,
-                            8,
+                      Gap(18),
+                      Container(
+                        height: MediaQuery.of(context).size.height / 20,
+                        width: MediaQuery.of(context).size.height / 22,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(4),
+                          color: Colors.amber[900],
+                        ),
+                        child: Center(
+                            child: Text(
+                          "12",
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, color: Colors.white),
+                        )),
+                      ),
+                      Gap(18),
+                      Center(
+                        child: Container(
+                          height: MediaQuery.of(context).size.height / 20,
+                          width: MediaQuery.of(context).size.height / 22,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(4),
+                            color: Colors.amber[900],
                           ),
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20),
-                    ),
-                  ],
+                          child: Center(
+                              child: Text(
+                            "24",
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white),
+                          )),
+                        ),
+                      ),
+                      Gap(10),
+                      Text(
+                        "View All",
+                        style: TextStyle(
+                            color: Color.fromARGB(
+                              255,
+                              6,
+                              89,
+                              8,
+                            ),
+                            fontWeight: FontWeight.bold,
+                            fontSize: 14),
+                      ),
+                    ],
+                  ),
                 ),
               ],
             ),
@@ -279,15 +221,15 @@ class Homepage1 extends StatelessWidget {
             child: Row(
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(left: 20.0),
+                  padding: const EdgeInsets.only(left: 15.0),
                   child: Container(
                     height: 140,
-                    width: 115,
+                    width: 90,
                     child: Column(
                       children: [
                         Container(
                           height: 110,
-                          width: 115,
+                          width: 90,
                           child: Image.asset(
                             "assets/images/bardiip.jpg",
                             fit: BoxFit.cover,
@@ -295,7 +237,7 @@ class Homepage1 extends StatelessWidget {
                         ),
                         Gap(10),
                         Text(
-                          "BARDI SMART IP",
+                          "WEBCAM",
                           style: TextStyle(
                               color: Colors.black, fontWeight: FontWeight.bold),
                         ),
@@ -304,7 +246,7 @@ class Homepage1 extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(left: 10.0),
+                  padding: const EdgeInsets.only(left: 4.0),
                   child: Container(
                     height: 140,
                     width: 115,
@@ -328,7 +270,7 @@ class Homepage1 extends StatelessWidget {
                     ),
                   ),
                 ),
-                Gap(10),
+                Gap(5),
                 Padding(
                   padding: const EdgeInsets.only(left: 10.0),
                   child: Container(
@@ -338,7 +280,7 @@ class Homepage1 extends StatelessWidget {
                       children: [
                         Container(
                           height: 110,
-                          width: 115,
+                          width: 90,
                           child: Image.asset(
                             "assets/images/glassp.png",
                             fit: BoxFit.cover,

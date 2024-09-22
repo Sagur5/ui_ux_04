@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 
@@ -31,7 +33,4 @@ class IconElement extends StatelessWidget {
   }
 }
 
-//Icons.account_tree_outlined
 
-// color: Color.fromARGB(255, 19, 180, 46),
-//size: 50,
